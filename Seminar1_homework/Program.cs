@@ -54,18 +54,18 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-Console.WriteLine("Please insert the Number");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Please insert the Number");
+// int n = Convert.ToInt32(Console.ReadLine());
 
-int num = 1;
-while(n >= num)
-{
-    int rem = num % 2;
-    if (rem == 0)
-    {
-        Console.Write(num + " ");
-        num++; 
-    }
-    else
-        num++;
-}
+// int num = 1;
+// while(n >= num)
+// {
+//     int rem = num % 2;
+//     if (rem == 0)
+//     {
+//         Console.Write(num + " ");
+//         num++; 
+//     }
+//     else
+//         num++;
+// }
