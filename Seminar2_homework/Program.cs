@@ -48,19 +48,19 @@
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
-void Weekend(int day)
-{
-    if ( day >= 1 && day <= 5 )
-    Console.WriteLine("The Day inserted is not a Weekend!");
-        if ( day == 6 || day == 7 )
-        Console.WriteLine("The Day inserted is a Weekend!");
-            // else 
-            // Console.WriteLine($"The Day inserted is {day}, but only 7 days in a week! Please insure you submit correct Day number and try another time!");
-}
-Console.WriteLine("Please insert day number, from 1 to 7");
-int day = Convert.ToInt32(Console.ReadLine());
+// void Weekend(int day)
+// {
+//     if ( day >= 1 && day <= 5 )
+//     Console.WriteLine("The Day inserted is not a Weekend!");
+//         if ( day == 6 || day == 7 )
+//         Console.WriteLine("The Day inserted is a Weekend!");
+//             // else 
+//             // Console.WriteLine($"The number of the Day inserted is {day}, but only 7 days in a week! Please insure you submit correct Day number and try another time!");
+// }
+// Console.WriteLine("Please insert day number, from 1 to 7");
+// int day = Convert.ToInt32(Console.ReadLine());
 
-Weekend(day);
+// Weekend(day);
 // 6 -> да
 // 7 -> да
 // 1 -> нет
