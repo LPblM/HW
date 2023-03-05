@@ -37,22 +37,26 @@
 
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-double FindDistance(double x1, double y1, double x2, double y2)
-{
-    return Math.Round(Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2)), 2);
-}
+// double FindDistance(double x1, double y1, double z1, double x2, double y2, double z2)
+// {
+//     return Math.Round(Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2) + Math.Pow(z2-z1, 2)), 2);
+// }
 
-Console.WriteLine("Input coordinate X of A point: ");
-double x1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Input coordinate Y of A point: ");
-double y1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Input coordinate X of B point: ");
-double x2 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Input coordinate Y of B point: ");
-double y2 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate X of A point: ");
+// double x1 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate Y of A point: ");
+// double y1 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate Z of A point: ");
+// double z1 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate X of B point: ");
+// double x2 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate Y of B point: ");
+// double y2 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Input coordinate Z of B point: ");
+// double z2 = Convert.ToDouble(Console.ReadLine());
 
-double distance = FindDistance(x1, y1, x2, y2);
-Console.WriteLine($"Distance between A and B is {distance}");
+// double distance = FindDistance(x1, y1, z1, x2, y2, z2);
+// Console.WriteLine($"Distance between A and B is {distance}");
 
 
 
