@@ -128,58 +128,57 @@
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-int [,] Create2DRandomArray (int rows, int columns, int minValue, int maxValue)
-{
-    int[,] myArray = new int [rows, columns];
-    for (int i=0; i < rows; i++)
-    {
-        for (int j=0; j < columns; j++)
-        {
-            myArray[i,j] = new Random().Next(minValue, maxValue + 1);
-        }
-    }
-    return myArray;
-}
+// int [,] Create2DRandomArray (int rows, int columns, int minValue, int maxValue)
+// {
+//     int[,] myArray = new int [rows, columns];
+//     for (int i=0; i < rows; i++)
+//     {
+//         for (int j=0; j < columns; j++)
+//         {
+//             myArray[i,j] = new Random().Next(minValue, maxValue + 1);
+//         }
+//     }
+//     return myArray;
+// }
 
-void Show2DArray (int[,] array)
-{
-    for (int i=0; i < array.GetLength(0); i++)
-    {
-        for (int j=0; j < array.GetLength(1); j++)
-        {
-            Console.Write(array[i,j] + " ");
-        }
-        Console.WriteLine();
-    }
-    Console.WriteLine();
-}
+// void Show2DArray (int[,] array)
+// {
+//     for (int i=0; i < array.GetLength(0); i++)
+//     {
+//         for (int j=0; j < array.GetLength(1); j++)
+//         {
+//             Console.Write(array[i,j] + " ");
+//         }
+//         Console.WriteLine();
+//     }
+//     Console.WriteLine();
+// }
 
-double ColumnsAverages((Show2DArray (myArray)), int rows, int columns)
-    int i= rows;
-    int j= columns;
-    for (j = 0; j < array.GetLength(0); j++)
-        {
-            for (i = 0; i < array.GetLength(1); i++)
-                {
-                    double sum = 0;
-                    sum = (sum + array[i,j])/i;
-                }
-    Console.WriteLine ("The Columns averages are:");
-    Console.Write ($"{sum} " "")
-}
+// void ColumnsAverages (int[,] array)
+// {
+//     double sum = 0;
+//     for (int j = 0; j < array.GetLength(1); j++)
+//         {
+//             for (int i = 0; i < array.GetLength(0); i++)
+//                 {
+//                     sum = (sum + array[i,j])/array.GetLength(1);
+//                 }
+//                     Console.WriteLine ($"The Column {j+1} average is {sum}");
+//                     sum = 0;
+//         }
+// }
 
-Console.WriteLine ("Insert array rows number:");
-int rows = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Insert array columns number:");
-int columns = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Insert minimum value:");
-int minValue = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine ("Insert maximum value:");
-int maxValue = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Insert array rows number:");
+// int rows = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Insert array columns number:");
+// int columns = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Insert minimum value:");
+// int minValue = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine ("Insert maximum value:");
+// int maxValue = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine ();
-int[,] myArray = Create2DRandomArray (rows, columns, minValue, maxValue);
-Show2DArray (myArray);
-Console.WriteLine ();
-double res = ColumnsAverages(myArray, rows, columns);
-Console.WriteLine ($"The Columns averages are-> {res}");
+// Console.WriteLine ();
+// int[,] myArray = Create2DRandomArray (rows, columns, minValue, maxValue);
+// Show2DArray (myArray);
+// Console.WriteLine ();
+// ColumnsAverages(myArray);
